@@ -236,6 +236,24 @@ webencodings = "*"
 css = ["tinycss2 (>=1.1.0,<1.5)"]
 
 [[package]]
+name = "brokenaxes"
+version = "0.6.2"
+description = "Create broken axes"
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "brokenaxes-0.6.2-py3-none-any.whl", hash = "sha256:bc0a269c4a9a9a643504fbb7d734a279629cc2cada5ee90c57645e75c89f38ad"},
+    {file = "brokenaxes-0.6.2.tar.gz", hash = "sha256:bfa68242f003c02fe57ce7b5c5671c78c733ac8cc51a2be0f3ee6906c18e5d49"},
+]
+
+[package.dependencies]
+matplotlib = ">3.6"
+
+[package.extras]
+test = ["pytest (>=6.0)", "pytest-cov", "pytest-mpl"]
+
+[[package]]
 name = "certifi"
 version = "2026.5.20"
 description = "Python package for providing Mozilla's CA Bundle."
@@ -3977,4 +3995,4 @@ testing = ["coverage[toml]", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11,<3.14"
-content-hash = "e1e1a6d9dcc1c38dea2abcadff749190b8d9a1945f18ae90d554f809cfc221e0"
+content-hash = "c6bfd9c45111eaccb407bb2458bcee63f2ad151c092b73448fa6590e78c2b81e"
